@@ -10,11 +10,11 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-    from: 'Stark , <emersonsouza2704@gmail.com>', // sender address
-    to: 'test@tes.com', // list of receivers
-    subject: 'Teste de email com NODEJS ', // Subject line
-    text: 'NODEJS È FooODA ', // plaintext body
-    html: '<h1> MSGM</h1>' // html body
+    from: 'Stark , <emersonsouza2704@gmail.com>', 
+    to: 'test@tes.com', 
+    subject: 'Teste de email com NODEJS ', 
+    text: 'NODEJS È FooODA ',
+    html: '<h1> MSGM</h1>' 
 };
 
 // Enviando email
