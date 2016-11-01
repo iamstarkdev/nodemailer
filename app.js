@@ -10,10 +10,14 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-    from: 'Stark , <emersonsouza2704@gmail.com>', 
+    from: 'Stark , <starkdev@gmail.com>', 
+    //Lista de emails que você quer enviar (pode cadastrar vários, basta separar por " , ")
     to: 'test@tes.com', 
+    //Assunto do email
     subject: 'Teste de email com NODEJS ', 
-    text: 'NODEJS È FooODA ',
+    //Aqui você pode enviar toda a mensagem
+    text: 'Enviando email com nodejs + nodemailer ',
+    // podemos também utilizar um HTML
     html: '<h1> MSGM</h1>' 
 };
 

@@ -1,0 +1,19 @@
+{
+  "name": "exemplo-nodemailer",
+  "version": "1.0.0",
+  "description": "Exemplo básico de como enviar emails como nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmersonStark/nodemailer.git"
+  },
+  "author": "Emerson Stark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmersonStark/nodemailer/issues"
+  },
+  "homepage": "https://github.com/EmersonStark/nodemailer#readme"
+}
