@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/EmersonStark/nodemailer#readme",
   "dependencies": {
-    "nodemailer": "^4.4.1"
+    "nodemailer": "^4.7.0"
   }
 }
